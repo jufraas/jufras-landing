@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '@/components/Header.jsx'
+import Header from '@/components/Header'
 import  {  Inter  }  from  'next/font/google'
 const  inter  =  Inter ( {  subsets: [ 'latin' ]  } )
 
