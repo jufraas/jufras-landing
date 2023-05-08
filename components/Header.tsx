@@ -31,7 +31,7 @@ export default function Header() {
           </Link>
             <a 
             type="button"
-            className="items-center p-2 ml-1 text-sm rounded-lg lg:hidden text-gray hover:bg-[#015A66]"
+            className="items-center p-2 ml-1 text-sm rounded-lg lg:hidden text-gray bg-[#8d1515]"
             >
             <Image 
               className="w-6 h-6"
