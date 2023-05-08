@@ -1,21 +1,22 @@
-import Image from "next/image"
-import Link from "next/link"
-import React from "react"
+
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 
 export default function Header() {
   return (
-    <div className='w-full fidex bg-gradient-to-r bg-[#000] py-[15px]'>
-      <div className="flex items-center justify-between max-w-screen-xl px-4 mx-auto">  
-        <a className="flex items-center">
+    <div className='w-full fidex bg-gradient-to-r bg-[#000000] py-[15px]'>
+      <div className="flex items-center justify-between max-w-screen-xl px-1 mx-auto">  
+        <Link href='/' className="flex items-center">
           <Image 
           src='./assets/icons/principal-logo.svg'
           alt="principal-logo"
           width={55}
           height={55}
           />
-          <span className="text-white text-xl font-semibold">Juan Francisco</span>
-        </a>
+          <span className="text-white text-xl font-semibold"></span>
+        </Link>
 
         <div className="flex items-center lg:order-2">
           <Link href='/'>
@@ -43,7 +44,7 @@ export default function Header() {
             </a>
         </div>
 
-        <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 font-semibold">
+        <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 font-semibold px-4 ">
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
           <Link
                     href='/'
